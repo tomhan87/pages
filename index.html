@@ -1,1 +1,16 @@
-<html><body><p>First HTML Test</p></body></html>
+<html><body>
+  
+  <p>First HTML Test</p>
+
+
+  <input type="text" id="textbox">First HTML Test</input>
+  <input type="button" value="Test onClick="clickButton()"></input>
+<script type="text/javascript">
+  function clickButton (){
+    let string=document.getElementById("textbox").value;
+    alert(string);
+  }
+</script>
+
+
+</body></html>
