@@ -5,10 +5,15 @@
 
   <input type="text" id="textbox" width="500px" height="500px"></input>
   <input type="button" value="Test" onClick="clickButton()"></input>
+
+  
+  <h2>Result</h2>
+  <input type="text" id="textbox2" width="100px" height="100px"></input>
 <script type="text/javascript">
   function clickButton (){
     let string=document.getElementById("textbox").value;
-    alert(string);
+    document.getElementById("textbox2").value=string;
+    //alert(string);
   }
 </script>
 
